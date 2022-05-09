@@ -19,15 +19,15 @@ jobs:
           PERSONAL_ACCESS_TOKEN : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         with:
           path-to-signatures: 'signatures/red-monkey/cla.json'
-          path-to-document: 'https://gist.github.com/tcgithubadmin/5cff75a1891468b46227632621237b23' # e.g. a CLA or a DCO document
+          path-to-document: 'https://gist.github.com/souptik2576/31838fb29cdff937c13236c3113907ca' # e.g. a CLA or a DCO document
           # branch should not be protected
-          #branch: 'main' 
-          branch: 'master'
+          branch: 'main' 
+          #branch: 'master'
           allowlist: user1,bot*
 
          #below are the optional inputs - If the optional inputs are not given, then default values will be taken
-          remote-organization-name: 'Toyota-Connected-India'
-          remote-repository-name:  'Infosec-OSS-Audit'
+          remote-organization-name: 'souptik-saha123'
+          remote-repository-name:  'test'
           #create-file-commit-message: 'For example: Creating file for storing CLA Signatures'
           #signed-commit-message: 'For example: $contributorName has signed the CLA in #$pullRequestNo'
           #custom-notsigned-prcomment: 'pull request comment with Introductory message to ask new contributors to sign'
