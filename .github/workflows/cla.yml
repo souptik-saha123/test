@@ -18,7 +18,7 @@ jobs:
           # the below token should have repo scope and must be manually added by you in the repository's secret
           PERSONAL_ACCESS_TOKEN : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         with:
-          path-to-signatures: 'signatures/secops-1/cla.json'
+          path-to-signatures: 'signatures/red-monkey/cla.json'
           path-to-document: 'https://gist.github.com/tcgithubadmin/5cff75a1891468b46227632621237b23' # e.g. a CLA or a DCO document
           # branch should not be protected
           #branch: 'main' 
